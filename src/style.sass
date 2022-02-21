@@ -1,0 +1,843 @@
+$primary-purple : #403271
+$secondary-purple : #6638F0
+$highlight-purple: #BE55FF
+$teal : #55FFB1
+$orange : #FF6C10
+$dark-blue : #225F80
+$light-blue : #3DB4F4
+
+//Breakpoints
+$mobile : 375px
+$lgmobile: 416px
+$default: 1024px
+$tablet: 900px
+$xl : 1425px
+$xxl: 1730px
+
+=mainCta
+    background-color: $teal
+    height: 48px
+    width: 227px
+    border: none
+    font-size: 14px 
+    font-family: 'Montserrat', sans-serif
+    font-weight: bold
+    text-transform: uppercase-box
+    color: $dark-blue
+    z-index: 5
+    box-sizing: border-box
+    text-align: center
+    padding: 16px
+    text-decoration: none
+
+=montserrat
+    font-family: 'Montserrat', sans-serif
+
+=source-code 
+    font-family: 'Source Code Pro', monospace
+
+=open-sans
+    font-family: 'Open Sans', sans-serif
+
+=flexRow
+    display: flex
+    flex-direction: row
+
+=flexColumn
+    display: flex
+    flex-direction: column
+
+=featureImageHolder
+    width: 200px
+    height: 200px
+    background-color: lightgrey
+    text-align: center
+    margin: 0px
+
+=regularButton
+    font-size: 14px
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 20px
+    padding-right: 20px
+    border: solid grey 2px
+    background: lightgrey
+    color: black
+    text-decoration: none
+
+=longButton
+    font-size: 14px
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 20px
+    padding-right: 20px
+    border: solid grey 2px
+    background: lightgrey
+    color: black
+    text-decoration: none
+    width: -webkit-fill-available
+    text-align: center
+
+=smallIcon
+    background: grey
+    border-radius: 100px
+    padding: 11px
+    width: 20px
+    text-align: center
+
+body 
+    margin: 0px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    @media screen and ( max-width: $lgmobile )
+        width: 100%
+        overflow-x: hidden
+
+.header
+    +source-code 
+    color: white
+    letter-spacing: -1px
+    font-size: 49px
+    letter-spacing: -2.4px
+    width: 500px
+    position: relative
+    z-index: 1
+    @media screen and (max-width: 650px)
+        font-size: 39px
+        text-align: center
+    @media screen and ( max-width: $lgmobile )
+        font-size: 32px
+        margin-left: -20px
+    @media screen and (max-width: 374px)
+        max-width: 90vw
+        font-size: 28px
+
+.button
+    @media screen and (max-width: $lgmobile)
+        width: 80vw
+        margin-bottom: 10px
+        text-align: center
+
+.technologies
+    margin-left: 3vw
+
+.project-image, .overlay
+    align-self: center
+
+.slash-one
+    color: $teal
+
+.slash-two
+    color: $secondary-purple
+    margin-left: -8px
+
+.slash
+    font-size: 27px
+
+.main-cta
+    +mainCta 
+
+.last-button
+    @media screen and (max-width: $lgmobile)
+        width: 90vw
+
+.header-section
+    background: transparent linear-gradient(180deg, #453F8E 0%, #3A2047 100%) 0% 0% no-repeat padding-box
+    height: 699px
+    border: none
+    position: relative
+    width: -webkit-fill-available
+    overflow-x: hidden
+    @media screen and (max-width: $default)
+        height: 1000px
+    @media screen and ( min-width: $xl )
+        position: unset
+        height: 687px
+    @media screen and ( min-width: $default )
+        overflow-x: unset
+
+.wrapper
+    @media screen and ( max-width: $lgmobile )
+        width: 100%
+
+.main-menu
+    +flexRow 
+    justify-content: space-between
+    padding-right: 50px
+    padding-left: 50px
+    padding-top: 32px   
+    @media screen and ( max-width: $lgmobile )
+        padding-right: 5vw
+        padding-left: 5vw 
+        
+    
+.comma
+    color: $teal
+    margin: -15px
+    @media screen and ( max-width: $lgmobile )
+        margin: -10px
+
+.hero-copy-container
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    position: absolute
+    left: 10vw
+    width: 500px
+    @media screen and (max-width: $default)
+        position: unset
+        align-items: center
+        justify-content: center
+    @media screen and ( min-width: $xl )
+        position: relative
+
+.hero-copy
+    +open-sans
+    color: white
+    font-size: 16px
+    padding-top: 0px
+    padding-bottom: 15px
+    width: 320px
+    align-self: flex-start
+    margin-top: 0px
+    line-height: 1.5em
+    @media screen and (max-width: $default)
+        text-align: center
+        align-self: unset
+    @media screen and (max-width: 374px)
+        max-width: 90vw
+
+.line-two
+    margin-left: 46px
+
+.first-parenthesis, .second-parenthesis
+    position: absolute
+    color: $highlight-purple
+    font-size: 114px
+    opacity: 0.27
+    z-index: -1
+    @media screen and (max-width: 650px)
+        font-size: 90px
+
+.first-parenthesis
+    top: -43px
+    left: -27px
+    @media screen and (max-width: 650px)
+        top: -37px
+        left: 45px
+    @media screen and ( max-width: $lgmobile )
+        top: -37px  
+        left: 87px
+    @media screen and (max-width: 374px)
+        left: -3px
+
+.second-parenthesis
+    top: 15px
+    right: -3px
+    @media screen and (max-width: 650px)
+        top: 10px
+        right: 42px
+    @media screen and ( max-width: $lgmobile )
+        top: 0px
+        right: 70px
+    @media screen and (max-width: 374px)
+        right: -18px
+
+.profile-shadow
+    opacity:0
+
+.social-icons
+    width: 125px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-top: 25px
+
+.hero-section
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    height: 555px
+    max-width: 1280px
+    @media screen and ( min-width: $xl )
+        max-width: unset
+
+.profile-img-container
+    display: flex
+    flex-direction: row
+    position: absolute
+    right: 10vw
+    bottom: 0vw
+    @media screen and ( max-width: $tablet )
+        right: unset
+    @media screen and ( max-width: $default )
+        right: unset
+    @media screen and ( min-width: $xl )
+        position: relative
+        margin-left: 300px
+
+.social
+    height: 30px
+    width: auto
+    position: relative
+    z-index: 10
+
+.profile-img
+    position: relative
+    z-index: 5
+
+.profile
+    @media screen and (max-width: $default)
+        height: 406px
+
+.second-img
+    position: absolute
+    right: -27px
+    z-index: 3
+    opacity: .4
+    mix-blend-mode: luminosity
+
+.third-img
+    position: absolute
+    right: -53px
+    z-index: 0
+    opacity: 1
+    color: white
+    mix-blend-mode: screen
+
+.bkg-circle
+    background-color: white
+    width: 724px
+    height: 724px
+    position: absolute
+    @media screen and (max-width: $default)
+        width: 400px 
+        height: 400px
+        top: unset
+
+.circle-one
+    top: 0px
+    border-radius: 100%
+    opacity: .02
+    @media screen and (max-width: $default)
+        left: 20vw
+        top: unset
+        bottom: 0vw
+    @media screen and (max-width: $tablet)
+        left: 5vw
+        top: unset
+        bottom: 0vw
+    @media screen and (max-width: 650px)
+        left: 1vw
+        top: unset
+        bottom: 0vw
+    @media screen and ( max-width: $lgmobile )
+        left: 40vw
+        bottom: 0vw
+        top: unset
+
+.circle-two
+    top: 0
+    border-radius: 100%
+    opacity: .16
+    right: 0px
+    @media screen and (max-width: $default)
+        right: 20vw
+        top: unset
+        bottom: 0vw
+    @media screen and (max-width: $tablet)
+        right: 5vw
+        bottom: 0vw
+        top: unset
+    @media screen and (max-width: 650px)
+        right: 1vw
+        top: unset
+        bottom: 0vw
+    @media screen and ( max-width: $lgmobile )
+        right: 50vw
+        bottom: 0vw
+        top: unset
+
+h2
+    +source-code
+    letter-spacing: -1px
+
+.bio-header
+    width: 771px
+    @media screen and ( max-width: $default )
+        width: unset
+
+.bio-section-container
+    display: flex
+    flex-direction: column
+    margin-top: 75px
+    justify-content: center
+    align-items: center
+    margin-right: 20vw
+    margin-left: 20vw
+    margin-bottom: 75px
+    position: relative
+    @media screen and ( max-width: $default )
+        margin-right: 10vw
+        margin-left: 10vw
+
+.bio-header
+    font-size: 35px
+    text-align: center
+    letter-spacing: -1px
+    margin-bottom: 21px
+    position: relative
+    z-index: 5
+
+.bio-description
+    font-size: 18px
+    text-align: center
+    line-height: 1.5em
+    +open-sans
+
+.bio-circle
+    border: black 2px solid
+    height: 31px
+    position: absolute
+    width: 231px
+    border-radius: 100%
+    opacity: .4
+    z-index: -1
+
+.bio-cir-one
+    right: -5px
+    height: 77px
+    top: -17px
+    border-color: $teal
+    transform: rotate(2deg)
+    @media screen and ( max-width: $default )
+        right: 18px
+    @media screen and ( max-width: $lgmobile )
+        right: 5px
+    @media screen and ( min-width: $lgmobile )
+        right: 26px
+        top: 26px
+    @media screen and ( min-width: 525px )
+        right: 135px
+    @media screen and ( min-width: 600px )
+        right: 160px
+    @media screen and ( min-width: 750px )
+        left: 45px
+        right: unset
+        top: -15px
+    @media screen and ( max-width: $mobile )
+        right: 5px
+
+.bio-cir-two
+    top: -11px
+    right: 8px
+    height: 60px
+    transform: rotate(3deg)
+    border-color: $highlight-purple
+    @media screen and ( max-width: $default )
+        right: 27px
+    @media screen and ( max-width: $tablet )
+        right: 0px
+    @media screen and ( max-width: $lgmobile )
+        right: 5px
+    @media screen and ( min-width: $lgmobile )
+        right: 26px
+        top: 35px
+    @media screen and ( min-width: 525px )
+        right: 130px
+    @media screen and ( min-width: 600px )
+        right: 155px
+    @media screen and ( min-width: 750px )
+        left: 45px
+        right: unset
+        top: -7px
+    @media screen and ( max-width: $mobile )
+        right: 7px
+
+.by-experience, .at-heart
+    color: $primary-purple
+
+.by-experience
+    position: relative
+
+.developer
+    color: $secondary-purple
+
+.experience-container, .skills-container
+    margin-right: 10vw
+    margin-left: 10vw
+    display: flex
+    flex-direction: column
+    position: relative
+    margin-top: 0px
+
+.experience-container
+    @media screen and ( max-width: $lgmobile )
+        margin-top: -25px
+
+.work-container
+    display: flex
+    flex-direction: column
+    margin-left: 10vw
+    margin-right: 10vw
+    margin-bottom: 50px
+
+.work-button-container
+    margin-top: 15px
+    display: flex
+    flex-flow: wrap
+    @media screen and ( max-width: $lgmobile )
+        justify-content: center
+        align-items: center
+
+
+.project-container
+    display: flex
+    flex-direction: column
+    width: 446px
+    @media screen and ( max-width: $default )
+        margin-right: unset
+        width: unset
+        margin-bottom: 50px
+        max-width: 400px
+
+.project-title
+    +source-code
+    color: $secondary-purple
+    letter-spacing: -1px
+    font-size: 1.2em
+    margin-top: 40px
+    margin-bottom: 0px
+    word-spacing: -4px
+    @media screen and ( max-width: $lgmobile )
+        margin-left: 2.5vw
+        font-size: 1.5em
+
+.technologies-header
+    +source-code
+    letter-spacing: -1px
+    font-size: 1.2em
+    margin-bottom: 0px
+    margin-top: 0px
+    word-spacing: -4px
+    @media screen and ( max-width: $lgmobile )
+        margin-left: 2.5vw
+
+.technologies-copy
+    margin-bottom: 0px
+
+.projects-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+    @media screen and ( max-width: $default )
+        flex-direction: column
+        max-width: 400px
+
+.experience-header, .skills-header, .work-header
+    margin-left: 2.5vw
+    margin-bottom: 20px
+
+.skill
+    min-height: 249px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    min-height: 330px
+
+.skill-logo
+    max-height: 50px
+    min-width: auto
+
+.fa-react
+    font-size: 50px
+    color: #60DAFB
+
+.skill-logo-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 15px
+    margin-block-start: auto
+
+.skill-title
+    font-size: 24px
+    +source-code
+    letter-spacing: -1px
+    margin-top: 10px
+    margin-bottom: 0px
+
+.skill-description
+    margin-top: 25px
+    margin-bottom: 25px
+    justify-self: flex-start
+
+.skill-title-one
+    color: $secondary-purple
+
+.skill-title-two
+    color: $orange
+
+.skill-title-three
+    color: $light-blue
+
+.exp-cir-one
+    border-radius: 100%
+    border: $secondary-purple 1px solid
+    position: absolute
+    opacity: .25
+    left: 1px
+    top: -49px
+    height: 300px
+    width: 300px
+    z-index: 1
+    @media screen and ( max-width: $lgmobile )
+        display: none
+
+.exp-cir-two
+    border-radius: 100%
+    border: $secondary-purple 1px solid
+    position: absolute
+    opacity: .25
+    top: -42px
+    left: 251px
+    height: 150px
+    width: 150px
+    z-index: 0
+    @media screen and ( max-width: $lgmobile )
+        display: none
+
+.job-container, .skill-container
+    display: flex
+    flex-direction: row
+    margin-bottom: 50px
+    overflow-x: revert
+    justify-content: space-between
+    align-items: center
+    max-width: 90vw
+    @media screen and (max-width: $default)
+        flex-direction: column
+        
+
+.skill-container
+    align-items: flex-start
+    position: relative
+
+.skill-cir-one
+    border-radius: 100%
+    border: 1px $secondary-purple solid
+    height: 150px
+    width: 150px
+    opacity: .25
+    position: absolute
+    right: 410px
+
+.skill-cir-two
+    border-radius: 100%
+    border: 1px $secondary-purple solid
+    height: 250px
+    width: 250px
+    opacity: .25
+    position: absolute
+    right: 210px
+    top: -30px
+
+.project-image
+    width: 446px
+    height: auto
+    max-height: 221px
+    overflow: hidden
+    @media screen and ( max-width: $default )
+        width: 400px
+        height: 198px
+        overflow: hidden
+    @media screen and ( max-width: $lgmobile )
+        width: 325px
+        height: 161.405px
+        overflow: hidden
+
+.to-do
+    border: $primary-purple 2px solid
+    box-sizing: border-box
+
+.info-box
+    width: 258px
+    border-radius: 50px
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 35px
+    padding-right: 35px
+    z-index: 5
+    position: relative
+    background-color: white
+    min-width: 300px
+    min-height: 298px
+    @media screen and ( max-width: $lgmobile )
+        min-width: unset
+        width: 248px
+
+.info-box-one
+    border: $secondary-purple 1px solid
+    box-shadow: 5px 7px $secondary-purple
+
+.info-box-two
+    border: $orange 1px solid
+    box-shadow: 5px 7px $orange
+    margin-right: 25px
+    margin-left: 25px
+    @media screen and (max-width: $default)
+        margin-right: unset
+        margin-left: unset
+        margin-top: 50px
+        margin-bottom: 50px
+
+.info-box-three
+    border: $light-blue 1px solid
+    box-shadow: 5px 7px $light-blue
+
+.company-name
+    font-size: 16px
+    margin-bottom: 0px  
+    +source-code 
+    letter-spacing: -1px
+
+.title
+    font-size: 18px
+    margin-top: 5px   
+    margin-bottom: 5px 
+    +source-code 
+    letter-spacing: -1px
+
+
+.year
+    font-size: 16px
+    margin-top: 0px 
+    +source-code
+    color: #797979
+
+.accomplishments
+    font-size: 21px
+    margin-bottom: 12px
+    margin-top: 12px
+    +source-code
+
+ul
+    list-style: none
+    padding: 0px
+
+li
+    margin-bottom: 10px
+    font-size: 16px
+    +open-sans
+    line-height: 20px
+    margin-bottom: 20px
+
+.skill-description, .project-description, .technologies-copy
+    +open-sans 
+    font-size: 16px
+    line-height: 1.5em
+
+.project-description
+    @media screen and ( max-width: $default )
+        max-width: 400px
+    @media screen and ( max-width: $lgmobile )
+        margin-left: 2.5vw
+
+.title-one
+    color: $secondary-purple
+
+.title-two
+    color: $orange
+
+.title-three
+    color: $light-blue
+
+.overlay
+    height: 221px
+    width: 446px
+    background-color: $primary-purple
+    position: absolute
+    mix-blend-mode: color
+    @media screen and ( max-width: $default )
+        width: 400px
+        height: 198px
+    @media screen and ( max-width: $lgmobile )
+        width: 325px
+        height: 161.405px
+
+.github-button   
+   background-color: $light-blue
+   color: $dark-blue 
+   border: none
+   padding: 15px
+   +montserrat
+   text-transform: uppercase
+   font-size: 14px
+   margin-right: 15px
+   text-decoration: none
+   @media screen and (max-width: $lgmobile)
+       margin-right: 0px
+
+.live-button
+   border: none
+   padding: 15px
+   +montserrat
+   text-transform: uppercase
+   font-size: 14px
+   background-color: $secondary-purple
+   color: $teal
+   text-decoration: none
+
+.contact-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-right: 10vw
+    margin-left: 10vw
+    margin-bottom: 75px
+    max-width: 1000px
+    @media screen and ( min-width: $tablet )
+        margin-top: 50px
+
+.contact-copy
+    margin-left: 10vw
+    margin-right: 10vw
+    margin-bottom: 25px
+    margin-top: 25px
+    text-align: center
+    +open-sans
+    line-height: 1.5em
+    @media screen and ( max-width: $lgmobile )
+        margin-left: unset
+        margin-right: unset
+
+.contact-header
+    margin-bottom: 0px
+    font-size: 35px
+    letter-spacing: -1px
+    margin-top: 0px
+
+footer
+    color: black
+    display: flex
+    justify-content: center
+    align-items: center
+    +open-sans
+    margin-bottom: 75px
+    font-weight: 700
+    text-align: center
+
+.project-one
+    margin-right: 25px
+    @media screen and ( max-width: $default )
+        margin-right: unset
+
+.goat-logo
+    height: 50px
+    width: auto
+    
