@@ -1,6 +1,23 @@
 import React from 'react';
 import GOATLogo from './assets/goat-logo-white.svg';
 import ProfilePic from './assets/Mask Group 1.png';
+import LinkedInLogo from './assets/linked-logo-white.svg';
+import InstagramLogo from './assets/instagram-logo-white.svg';
+import GithubLogo from './assets/github-mark.svg';
+import ReactLogo from './assets/react-logo.svg';
+import JavascriptLogo from './assets/javascript-logo.png';
+import NodeJsLogo from './assets/node-js-logo.png';
+import VscodeLogo from './assets/vscode-logo.png';
+import AdobeXDLogo from './assets/adobe-xd-logo.png';
+import InvisionLogo from './assets/invision-logo.svg';
+import IllustratorLogo from './assets/illustrator-logo.png';
+import PhotoshopLogo from './assets/photoshop-logo.png';
+import ScrumLogo from './assets/scrum-logo.png';
+import JiraLogo from './assets/jira-software-logo.png';
+import TrelloLogo from './assets/trello-logo.jpeg';
+import AsanaLogo from './assets/asana-logo.png';
+import OutOfContext from './assets/out-of-context-screenshot.png';
+import DadJokez from './assets/dad-jokez-screenshot/Screen Shot 2020-07-30 at 7.33.40 PM.png';
 
 function Home() {
     return (
@@ -44,8 +61,8 @@ function Home() {
                                 href="https://www.instagram.com/only_grov/"
                                 target="_blank">
                                 <img
-                                    src="/assets/instagram-logo-white.svg"
-                                    alt="Link to Instgram profile"
+                                    src={InstagramLogo}
+                                    alt="Link to Instagram profile"
                                     class="instagram social"
                                 />
                             </a>
@@ -53,7 +70,7 @@ function Home() {
                                 href="https://www.linkedin.com/in/grover-richardson-b640b896/"
                                 target="_blank">
                                 <img
-                                    src="/assets/linked-logo-white.svg"
+                                    src={LinkedInLogo}
                                     alt="Link to LinkedIn Profile"
                                     class="social linkedin"
                                 />
@@ -62,7 +79,7 @@ function Home() {
                                 href="https://github.com/groverrichardson"
                                 target="_blank">
                                 <img
-                                    src="/assets/github-mark.svg"
+                                    src={GithubLogo}
                                     alt="Github Logo"
                                     class="social"
                                 />
@@ -197,22 +214,22 @@ function Home() {
                         </p>
                         <div class="skill-logo-container">
                             <img
-                                src="/assets/react-logo.svg"
+                                src={ReactLogo}
                                 alt="React logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/javascript-logo.png"
+                                src={JavascriptLogo}
                                 alt="Javascript Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/node-js-logo.png"
+                                src={NodeJsLogo}
                                 alt="Node JS Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/vscode-logo.png"
+                                src={VscodeLogo}
                                 alt="Vscode Logo"
                                 class="skill-logo"
                             />
@@ -227,22 +244,22 @@ function Home() {
                         </p>
                         <div class="skill-logo-container">
                             <img
-                                src="/assets/adobe-xd-logo.png"
+                                src={AdobeXDLogo}
                                 alt="Adobe XD Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/invision-logo.svg"
+                                src={InvisionLogo}
                                 alt="Invision Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/illustrator-logo.png"
+                                src={IllustratorLogo}
                                 alt="Illustrator Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/photoshop-logo.png"
+                                src={PhotoshopLogo}
                                 alt="Photoshop Logo"
                                 class="skill-logo"
                             />
@@ -259,22 +276,22 @@ function Home() {
                         </p>
                         <div class="skill-logo-container">
                             <img
-                                src="/assets/scrum-logo.png"
+                                src={ScrumLogo}
                                 alt="Scrum logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/jira-software-logo.png"
+                                src={JiraLogo}
                                 alt="Jira Software Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/trello-logo.jpeg"
+                                src={TrelloLogo}
                                 alt="Trello Logo"
                                 class="skill-logo"
                             />
                             <img
-                                src="/assets/asana-logo.png"
+                                src={AsanaLogo}
                                 alt="Asana Logo"
                                 class="skill-logo"
                             />
@@ -290,7 +307,7 @@ function Home() {
                 <div class="projects-container">
                     <div class="project-container project-one">
                         <img
-                            src="/assets/out-of-context-screenshot.png"
+                            src={OutOfContext}
                             alt="ToDo list project screenshot"
                             class="project-image to-do"
                         />
@@ -332,7 +349,7 @@ function Home() {
                     </div>
                     <div class="project-container project-two">
                         <img
-                            src="/assets/dad-jokez-screenshot/Screen Shot 2020-07-30 at 7.33.40 PM.png"
+                            src={DadJokez}
                             alt="DadJokez project screenshot"
                             class="project-image"
                         />

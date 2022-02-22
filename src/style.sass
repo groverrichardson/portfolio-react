@@ -95,6 +95,13 @@ body
         width: 100%
         overflow-x: hidden
 
+.Home
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    max-width: 100vw
+
 .header
     +source-code 
     color: white
@@ -122,6 +129,8 @@ body
 
 .technologies
     margin-left: 3vw
+    @media screen and (min-width: 416px)
+        margin-left: 0
 
 .project-image, .overlay
     align-self: center
@@ -459,6 +468,7 @@ h2
 
 .by-experience, .at-heart
     color: $primary-purple
+    padding-left: 10px
 
 .by-experience
     position: relative
@@ -611,9 +621,14 @@ h2
     @media screen and ( max-width: $lgmobile )
         display: none
 
-.job-container, .skill-container
+.skill-container
+    align-items: flex-start
+    position: relative
+
+.job-container, .skill-container, .work-container
     display: flex
     flex-direction: row
+    flex-wrap: wrap
     margin-bottom: 50px
     overflow-x: revert
     justify-content: space-between
@@ -621,11 +636,9 @@ h2
     max-width: 90vw
     @media screen and (max-width: $default)
         flex-direction: column
-        
 
-.skill-container
-    align-items: flex-start
-    position: relative
+.work-container
+    flex-direction: column
 
 .skill-cir-one
     border-radius: 100%
@@ -671,6 +684,7 @@ h2
     padding-bottom: 10px
     padding-left: 35px
     padding-right: 35px
+    margin-top: 30px
     z-index: 5
     position: relative
     background-color: white
@@ -841,3 +855,5 @@ footer
     height: 50px
     width: auto
     
+.work-header
+    align-self: start
