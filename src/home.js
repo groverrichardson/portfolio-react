@@ -316,7 +316,7 @@ function Home() {
                         <p class="project-description">
                             Out of Context is a game that makes your text
                             messages part of the game. Because your texts are
-                            always changing, gameplay is never the same. You'll
+                            always changing, game play is never the same. You'll
                             never think of your text messages the same again!
                         </p>
                         <h5 class="technologies-header">Technologies</h5>
@@ -386,9 +386,9 @@ function Home() {
             <div class="contact-container">
                 <h2 class="contact-header">Let's Connect</h2>
                 <p class="contact-copy">
-                    I'm always looking for new opportunites to provide value and
-                    grow. If you have a project or job opportunity, feel free to
-                    reach out so we can connect and build together!
+                    I'm always looking for new opportunities to provide value
+                    and grow. If you have a project or job opportunity, feel
+                    free to reach out so we can connect and build together!
                 </p>
                 <a
                     href="mailto:groverrichardson1987@gmail.com?subject=Job Opportunity"
