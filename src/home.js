@@ -137,8 +137,23 @@ function Home() {
                 </h2>
                 <div class="job-container">
                     <div class="job info-box-one info-box">
+                        <p class="company-name">American Solar Advantage</p>
+                        <h3 class="title title-one">CRM & IT Administrator</h3>
+                        <p class="year">2019 - Present</p>
+                        <h4 class="accomplishments">Accomplishments</h4>
+                        <ul>
+                            <li class="list-item">
+                                Migrated the company from Zoho CRM to Podio
+                            </li>
+                            <li class="list-item">Maintained CRM</li>
+                            <li class="list-item">
+                                Manage relations with MSPs
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="job info-box-two info-box">
                         <p class="company-name">Freedom Forever</p>
-                        <h3 class="title title-one">Senior Program Manager</h3>
+                        <h3 class="title title-two">Senior Program Manager</h3>
                         <p class="year">2016 - 2019</p>
                         <h4 class="accomplishments">Accomplishments</h4>
                         <ul>
@@ -153,9 +168,9 @@ function Home() {
                             </li>
                         </ul>
                     </div>
-                    <div class="job info-box-two info-box">
+                    <div class="job info-box-three info-box">
                         <p class="company-name">ALFC</p>
-                        <h3 class="title title-two">
+                        <h3 class="title title-three">
                             Web & Social Media Director
                         </h3>
                         <p class="year">2015 - 2016</p>
@@ -169,26 +184,6 @@ function Home() {
                             </li>
                             <li class="list-item">
                                 Led the redesign of org. website
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="job info-box-three info-box">
-                        <p class="company-name">The Way World Outreach</p>
-                        <h3 class="title title-three">
-                            Assistant Media Director
-                        </h3>
-                        <p class="year">2014-2015</p>
-                        <h4 class="accomplishments">Accomplishments</h4>
-                        <ul>
-                            <li class="list-item">
-                                Oversaw operations of weekly services
-                            </li>
-                            <li class="list-item">
-                                Developed and implemented new social media
-                                strategy
-                            </li>
-                            <li class="list-item">
-                                Produced and edited weekly video content
                             </li>
                         </ul>
                     </div>
@@ -356,11 +351,11 @@ function Home() {
                         <div class="overlay"></div>
                         <h5 class="project-title">DadJokez</h5>
                         <p class="project-description">
-                            I recently had a son and felt compelled to create
-                            this app because I needed a way to help people
-                            easily identify me as a dad. If you're looking for a
-                            few laughs and don't mind a few corny jokes, this is
-                            the app for you.
+                            When I had a son I felt compelled to create this app
+                            because I needed a way to help people easily
+                            identify me as a dad. If you're looking for a few
+                            laughs and don't mind a few corny jokes, this is the
+                            app for you.
                         </p>
                         <h5 class="technologies-header">Technologies</h5>
                         <ul class="technologies">
