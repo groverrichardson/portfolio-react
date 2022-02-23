@@ -18,6 +18,7 @@ import TrelloLogo from './assets/trello-logo.jpeg';
 import AsanaLogo from './assets/asana-logo.png';
 import OutOfContext from './assets/out-of-context-screenshot.png';
 import DadJokez from './assets/dad-jokez-screenshot/Screen Shot 2020-07-30 at 7.33.40 PM.png';
+import Calculator from './assets/calculator.png';
 
 function Home() {
     return (
@@ -302,40 +303,33 @@ function Home() {
                 <div class="projects-container">
                     <div class="project-container project-one">
                         <img
-                            src={OutOfContext}
+                            src={Calculator}
                             alt="ToDo list project screenshot"
-                            class="project-image to-do"
+                            class="project-image to-do calculator-img"
                         />
                         <div class="overlay"></div>
-                        <h5 class="project-title">Out of Context</h5>
+                        <h5 class="project-title">Calculator</h5>
                         <p class="project-description">
-                            Out of Context is a game that makes your text
-                            messages part of the game. Because your texts are
-                            always changing, game play is never the same. You'll
-                            never think of your text messages the same again!
+                            A simple calculator for all of the calculations you
+                            could easily just do on your phone. Or any other
+                            calculator app. Actually, you may not even need
+                            this. But check it out anyway.
                         </p>
                         <h5 class="technologies-header">Technologies</h5>
                         <ul class="technologies">
                             <li class="technologies-copy">React</li>
-                            <li class="technologies-copy">Node.js</li>
-                            <li class="technologies-copy">Express</li>
-                            <li class="technologies-copy">Postgres</li>
+                            <li class="technologies-copy">SASS</li>
+                            <li class="technologies-copy">Tailwind</li>
                         </ul>
                         <div class="work-button-container">
                             <a
-                                href="https://github.com/groverrichardson/out-of-context-app"
+                                href="https://github.com/groverrichardson/calculator"
                                 class="github-button button"
                                 target="_blank">
                                 App Repo
                             </a>
                             <a
-                                href="https://github.com/groverrichardson/out-of-context-server"
-                                class="github-button button"
-                                target="_blank">
-                                Server Repo
-                            </a>
-                            <a
-                                href="https://out-of-context-app.vercel.app/"
+                                href="https://calculator-six-tau.vercel.app/"
                                 class="live-button button"
                                 target="_blank">
                                 Live Site
