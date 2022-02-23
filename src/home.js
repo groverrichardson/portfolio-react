@@ -49,8 +49,9 @@ function Home() {
                             <span class="second-parenthesis">]</span>
                         </h1>
                         <p class="hero-copy">
-                            My name is Grover Richardson, and I love solving
-                            problems and building beautiful websites that work.
+                            My name is Grover Richardson (Grove of all Trades),
+                            and I love solving problems and building beautiful
+                            websites that work.
                         </p>
                         <a
                             href="mailto:groverrichardson1987@gmail.com?subject=Job Opportunity"
