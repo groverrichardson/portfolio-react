@@ -419,7 +419,7 @@ h2
 .bio-cir-one
     right: -5px
     height: 77px
-    top: -17px
+    top: 30px
     border-color: $teal
     transform: rotate(2deg)
     @media screen and ( max-width: $default )
@@ -441,7 +441,7 @@ h2
         right: 5px
 
 .bio-cir-two
-    top: -11px
+    top: 35px
     right: 8px
     height: 60px
     transform: rotate(3deg)
@@ -573,6 +573,8 @@ h2
     justify-content: space-between
     margin-bottom: 15px
     margin-block-start: auto
+    @media screen and (max-width: $mobile)
+        width: 80vw
 
 .skill-title
     font-size: 24px
@@ -672,6 +674,8 @@ h2
         width: 325px
         height: 161.405px
         overflow: hidden
+    @media screen and (max-width: $mobile)
+        width: 286px 
 
 .to-do
     border: $primary-purple 2px solid
@@ -693,6 +697,11 @@ h2
     @media screen and ( max-width: $lgmobile )
         min-width: unset
         width: 248px
+    @media screen and (max-width: $mobile)
+        padding-left: 10px
+        padding-right: 10px
+        align-items: center
+        text-align: center
 
 .info-box-one
     border: $secondary-purple 1px solid
@@ -857,6 +866,3 @@ footer
     
 .work-header
     align-self: start
-
-.calculator-img
-    height: 446px
