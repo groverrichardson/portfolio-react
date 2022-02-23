@@ -389,17 +389,19 @@ h2
     margin-left: 20vw
     margin-bottom: 75px
     position: relative
+    max-width: 90vw
     @media screen and ( max-width: $default )
         margin-right: 10vw
         margin-left: 10vw
 
 .bio-header
-    font-size: 35px
     text-align: center
     letter-spacing: -1px
     margin-bottom: 21px
     position: relative
     z-index: 5
+    @media screen and (min-width: $lgmobile)
+        font-size: 35px
 
 .bio-description
     font-size: 18px
@@ -573,8 +575,10 @@ h2
     justify-content: space-between
     margin-bottom: 15px
     margin-block-start: auto
+    @media screen and (max-width: $lgmobile)
+        width: 75vw
     @media screen and (max-width: $mobile)
-        width: 80vw
+        width: 61vw
 
 .skill-title
     font-size: 24px
@@ -695,13 +699,14 @@ h2
     min-width: 300px
     min-height: 298px
     @media screen and ( max-width: $lgmobile )
-        min-width: unset
-        width: 248px
-    @media screen and (max-width: $mobile)
+        display: flex
+        flex-direction: column
         padding-left: 10px
         padding-right: 10px
         align-items: center
         text-align: center
+        min-width: unset
+        width: 90vw
 
 .info-box-one
     border: $secondary-purple 1px solid
