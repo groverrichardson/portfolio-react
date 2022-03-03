@@ -417,9 +417,11 @@ h2
     border-radius: 100%
     opacity: .4
     z-index: -1
+    @media screen and (max-width: $lgmobile)
+        width: 173px
 
 .bio-cir-one
-    right: -5px
+    right: -8px
     height: 77px
     top: 15px
     border-color: $teal
@@ -427,7 +429,9 @@ h2
     @media screen and ( max-width: $default )
         right: 18px
     @media screen and ( max-width: $lgmobile )
-        right: 36px
+        right: 75px
+        height: 50px
+        top: 23px
     @media screen and ( min-width: $lgmobile )
         right: 26px
         top: 26px
@@ -436,11 +440,12 @@ h2
     @media screen and ( min-width: 600px )
         right: 134px
     @media screen and ( min-width: 750px )
-        left: -439px
-        right: unset
-        top: 25px
+        right: 1px
+        top: -13px
     @media screen and ( max-width: $mobile )
-        right: -39px
+        right: -1px
+        height: 53px
+        top: 22px
 
 .bio-cir-two
     top: 21px
@@ -453,7 +458,7 @@ h2
     @media screen and ( max-width: $tablet )
         right: 0px
     @media screen and ( max-width: $lgmobile )
-        right: 41px
+        right: 75px
     @media screen and ( min-width: $lgmobile )
         right: 26px
         top: 35px
@@ -462,11 +467,10 @@ h2
     @media screen and ( min-width: 600px )
         right: 134px
     @media screen and ( min-width: 750px )
-        left: -439px
-        right: unset
-        top: 34px
+        right: 1px
+        top: -6px
     @media screen and ( max-width: $mobile )
-        right: -29px
+        right: -5px
 
 .by-experience, .at-heart
     color: $primary-purple
@@ -666,7 +670,7 @@ h2
     top: -30px
 
 .project-image
-    width: 446px
+    width: auto
     height: auto
     max-height: 221px
     overflow: hidden
