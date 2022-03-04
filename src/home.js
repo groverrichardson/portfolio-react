@@ -351,11 +351,15 @@ function Home() {
                             because I needed a way to help people easily
                             identify me as a dad. If you're looking for a few
                             laughs and don't mind a few corny jokes, this is the
-                            app for you.
+                            app for you. Logo design by yours truly.
                         </p>
-                        <h5 class="technologies-header">Technologies</h5>
+                        <h5 class="technologies-header">
+                            Technologies and Applications
+                        </h5>
                         <ul class="technologies">
                             <li class="technologies-copy">jQuery</li>
+                            <li class="technologies-copy">Illustrator</li>
+                            <li class="technologies-copy">Photoshop</li>
                         </ul>
                         <div class="work-button-container">
                             <a
