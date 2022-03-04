@@ -394,13 +394,13 @@ function Home() {
                         </ul>
                         <div class="work-button-container">
                             <a
-                                href="https://github.com/groverrichardson/dad-jokez"
+                                href="https://github.com/groverrichardson/fetch-reward"
                                 class="github-button button"
                                 target="_blank">
                                 App Repo
                             </a>
                             <a
-                                href="https://dad-jokez.vercel.app/"
+                                href="https://fetch-reward.vercel.app/"
                                 class="live-button button"
                                 target="_blank">
                                 Live Site
