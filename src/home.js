@@ -19,6 +19,7 @@ import AsanaLogo from './assets/asana-logo.png';
 import OutOfContext from './assets/out-of-context-screenshot.png';
 import DadJokez from './assets/dad-jokez-screenshot/Screen Shot 2020-07-30 at 7.33.40 PM.png';
 import Calculator from './assets/calculator.png';
+import CreateProfile from './assets/create-profile.png';
 
 function Home() {
     return (
@@ -355,6 +356,41 @@ function Home() {
                         <h5 class="technologies-header">Technologies</h5>
                         <ul class="technologies">
                             <li class="technologies-copy">jQuery</li>
+                        </ul>
+                        <div class="work-button-container">
+                            <a
+                                href="https://github.com/groverrichardson/dad-jokez"
+                                class="github-button button"
+                                target="_blank">
+                                App Repo
+                            </a>
+                            <a
+                                href="https://dad-jokez.vercel.app/"
+                                class="live-button button"
+                                target="_blank">
+                                Live Site
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-container project-three">
+                        <img
+                            src={CreateProfile}
+                            alt="CreateProfile project screenshot"
+                            class="project-image"
+                        />
+                        <div class="overlay"></div>
+                        <h5 class="project-title">Create Account Form</h5>
+                        <p class="project-description">
+                            A basic form for creating new users. Perfect for any
+                            site that needs to add new users. If you need new
+                            users for your site, you could use this form.
+                        </p>
+                        <h5 class="technologies-header">Technologies</h5>
+                        <ul class="technologies">
+                            <li class="technologies-copy">React</li>
+                            <li class="technologies-copy">MUI</li>
+                            <li class="technologies-copy">SASS</li>
+                            <li class="technologies-copy">Tailwind</li>
                         </ul>
                         <div class="work-button-container">
                             <a
