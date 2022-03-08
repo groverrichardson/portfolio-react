@@ -497,7 +497,7 @@ h2
 
 .work-container
     display: flex
-    flex-direction: column
+    flex-direction: row
     margin-left: 10vw
     margin-right: 10vw
     margin-bottom: 50px
@@ -516,6 +516,7 @@ h2
     flex-direction: column
     width: 446px
     margin-right: 25px
+    margin-bottom: 75px
     @media screen and ( max-width: $default )
         margin-right: unset
         width: unset
@@ -550,6 +551,7 @@ h2
 .projects-container
     display: flex
     flex-direction: row
+    flex-wrap: wrap
     justify-content: space-between
     align-items: flex-start
     @media screen and ( max-width: $default )
@@ -630,7 +632,7 @@ h2
     height: 150px
     width: 150px
     z-index: 0
-    @media screen and ( max-width: $lgmobile )
+    @media screen and ( max-width: $xl )
         display: none
 
 .skill-container
@@ -651,6 +653,9 @@ h2
 
 .work-container
     flex-direction: column
+    max-width: 60vw
+    @media screen and (max-width: 1767px)
+        max-width: 90vw
 
 .skill-cir-one
     border-radius: 100%

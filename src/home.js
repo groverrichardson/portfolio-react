@@ -411,6 +411,41 @@ function Home() {
                             </a>
                         </div>
                     </div>
+                    <div class="project-container project-three">
+                        <img
+                            src={CreateProfile}
+                            alt="CreateProfile project screenshot"
+                            class="project-image"
+                        />
+                        <div class="overlay"></div>
+                        <h5 class="project-title">Create Account Form</h5>
+                        <p class="project-description">
+                            A basic form for creating new users. Perfect for any
+                            site that needs to add new users. If you need new
+                            users for your site, you could use this form.
+                        </p>
+                        <h5 class="technologies-header">Technologies</h5>
+                        <ul class="technologies">
+                            <li class="technologies-copy">React</li>
+                            <li class="technologies-copy">MUI</li>
+                            <li class="technologies-copy">SASS</li>
+                            <li class="technologies-copy">Tailwind</li>
+                        </ul>
+                        <div class="work-button-container">
+                            <a
+                                href="https://github.com/groverrichardson/fetch-reward"
+                                class="github-button button"
+                                target="_blank">
+                                App Repo
+                            </a>
+                            <a
+                                href="https://fetch-reward.vercel.app/"
+                                class="live-button button"
+                                target="_blank">
+                                Live Site
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="contact-container">
